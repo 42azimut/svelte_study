@@ -1,0 +1,33 @@
+<script>
+	import Todo from './Todo.svelte'
+	import { writable } from 'svelte/store'
+	
+	let title = '';
+	let todos = writable([]);
+	let id = 0;
+	
+	function createTodo() {
+		if (!title.trim()) {
+			title = ''
+			return 
+		}
+		$todos.push({
+			id:id,
+			title:title
+		})
+		$todos = $todos
+		title = '';
+		id += 1;
+	}
+	
+</script>
+<input bind:value={title} 
+			 type="text" 
+			 on:keydown={(e) => {e.key === 'Enter' && createTodo()}} />
+<button on:click={createTodo}>
+	create Todo
+</button>
+
+{#each $todos as todo}
+	<Todo todos={todos} todo={todo} />
+{/each}
