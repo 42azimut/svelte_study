@@ -7,3 +7,17 @@
 
 - [HEROPY TECH Svelte.js Core API 완벽가이드 ](https://www.youtube.com/watch?v=dFTu4-I0cdU&list=PL5v0w59YqSue9aPueJ15phdPv6lcvWzVy&index=12)
 - [Heropy Tech 블로그](https://heropy.blog/2019/09/29/svelte/)
+
+## 1. sveltejs / template : 일반 템플릿
+- [기본 템플릿](https://github.com/sveltejs/template)
+
+- webpack 도 있으나, 일반 템플릿을 사용한다. 롤업
+
+## 2. 설치
+- npx, npm 설치 되어 있다! 가정!
+- `npx degit sveltejs/template 프로젝트명`
+- `cd 프로젝트명`
+- `npm i` 
+
+## 3. 시작
+- `npm run dev`
