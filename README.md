@@ -32,3 +32,13 @@ ___
 2. Reactivity
 3. Props
 4. Logic
+5. Event (유툽 1:15:30 ~ 1:30:55)
+    - (1) DOM events
+    - (2) Inline handlers
+    - (3) component events
+    - (4) Event forawrding
+    - (5) DOM event forwarding
+
+6. Bindings ( ~ 2:'06:15)
+    - (1) Text inputs
+    - (2) Numeric inputs 
