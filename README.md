@@ -41,4 +41,16 @@ ___
 
 6. Bindings ( ~ 2:'06:15)
     - (1) Text inputs
-    - (2) Numeric inputs 
+    - (2) Numeric inputs
+    - (3) Checkbox inputs
+    - (4) Group inputs
+    - (5) Textarea inputs
+    - (6) Select bindings
+    - (7) Contenteditable bindings
+    - (8) Each block bindings
+    - (9) Media elements
+    - (10) Dimensions
+    - (11) This
+    - (12) Component bindings
+
+7. LifeCycle ( ~2:33:57)
