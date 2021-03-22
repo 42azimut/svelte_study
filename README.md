@@ -11,7 +11,7 @@
 ## 1. sveltejs / template : 일반 템플릿
 - [기본 템플릿](https://github.com/sveltejs/template)
 
-- webpack 도 있으나, 일반 템플릿을 사용한다. 롤업
+- webpack 도 있으나, 일반 템플릿을 사용한다. 롤업 roll up ???
 
 ## 2. 설치
 - npx, npm 설치 되어 있다! 가정!
@@ -21,3 +21,14 @@
 
 ## 3. 시작
 - `npm run dev`
+
+
+___
+
+## Svelte Tutorial
+- [스벨트 튜토리얼 바로가기](https://svelte.dev/tutorial/basics)
+- [hatemogi 스벨트 완전정복 4시간](https://www.youtube.com/watch?v=SMatXKHgS1A&t=2784s)
+1. 인트로
+2. Reactivity
+3. Props
+4. Logic

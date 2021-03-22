@@ -1,5 +1,5 @@
 <script>
-	import Todo from './Todo.svelte'
+	import Todo from './Todo'
 	import { writable } from 'svelte/store'
 	
 	let title = '';
