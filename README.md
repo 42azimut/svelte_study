@@ -18,10 +18,20 @@
 - `npx degit sveltejs/template 프로젝트명`
 - `cd 프로젝트명`
 - `npm i` 
-
+ 
 ## 3. 시작
 - `npm run dev`
 
+## 4. 앗! 나의 실수! src/main.js 삭제 했더니 ㅎㅎ 덕분에 구조를 알아감! ㅎ
+- main.js : 스벨트 파일에서 컴포넌트를 임포트하여 객체 생성! 
+```
+#  hmtl body 태그에 연결됨!!
+const app = new App({
+target: document.body,
+props: {}
+});
+
+```
 
 ___
 
